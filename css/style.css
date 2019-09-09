@@ -1,3 +1,4 @@
+
 #wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -43,6 +44,7 @@ aside {
 body {
   margin: 0 auto;
   max-width: 960px;
+  background-color: #EEFEFF;
 }
 
 #masthead, #footer {
@@ -119,9 +121,10 @@ p.footer {
   }
 
 .item {
-  border-bottom: 1px solid #dddddd;
+  border: 2px solid #dddddd;
   margin-bottom: 2em;
-  padding-bottom: 2em;
+  padding: 2em;
+  background-color: white;
 }
 
 .item h2 {

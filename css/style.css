@@ -20,16 +20,16 @@ aside {
 }
 
 @media (max-width: 700px) {
-  
+
   main,
   aside {
     grid-column: 1 / span 12;
   }
-  
+
   aside {
     order: 1;
   }
-  
+
   main {
     order: 2;
   }
@@ -37,7 +37,7 @@ aside {
   footer {
     order: 3;
   }
-  
+
 }
 
 body {
@@ -46,10 +46,10 @@ body {
 }
 
 #masthead, #footer {
- margin: 0 1em; 
+ margin: 0 1em;
 }
 
-#masthead, 
+#masthead,
 #footer,
 main,
 aside {
@@ -184,16 +184,16 @@ a:hover {
     padding: 0 .5em
   }
 
-#masthead, 
+#masthead,
 #footer {
   margin: 0 .5em
 }
 
-#masthead, 
+#masthead,
 #footer,
 main,
 aside {
     padding: 1em .5em;
   }
-  
+
 }
